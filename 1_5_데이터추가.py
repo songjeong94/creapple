@@ -12,3 +12,5 @@ marathon_2017_clean['Year'] = '2017'
 # 여러 csv를 합칠때 현재 칼럼데이터의 구분값을 넣어줌
 print(marathon_2017_clean.head())
 
+
+KEN_runner = marathon_2017_clean
