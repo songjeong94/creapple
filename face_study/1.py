@@ -184,7 +184,7 @@ def unet(sz = (256, 256, 3)):
     inputs = x
     
     # down sampling 
-    # f = 8
+    # ]\\\f = 8
     layers = []
     
     for i in range(0, 6):
