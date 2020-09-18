@@ -11,9 +11,9 @@ import cv2
 # 인수를 구문 분석하고 인수를 구문 분석합니다.
 ap = argparse.ArgumentParser()
 ap.add_argument("-p", "--prototxt", required=True,
-	help="path to Caffe 'deploy' prototxt file")
+	help="deploy.prototxt.txt")
 ap.add_argument("-m", "--model", required=True,
-	help="path to Caffe pre-trained model")
+	help="pres10_300x300_ssd_iter_140000.caffemodel")
 ap.add_argument("-c", "--confidence", type=float, default=0.5,
 	help="minimum probability to filter weak detections")
 args = vars(ap.parse_args())
